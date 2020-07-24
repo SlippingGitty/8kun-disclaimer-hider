@@ -11,6 +11,8 @@
 (function() {
     'use strict';
     $('.disclaimer-8kun').hide()
+    $('section.col-12.col.box.description:nth-of-type(3)').hide()
+    $('div.col-5.col:nth-of-type(3)').hide()
     var el, els = document.getElementsByTagName('*');
     var node, nodes;
     for (var i=0, iLen=els.length; i<iLen; i++) {
@@ -27,4 +29,5 @@
           }
       }
     }
+
 })();
